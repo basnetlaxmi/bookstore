@@ -5,17 +5,15 @@
 }
 
 .navbar {
-	display: flex;
+  display: flex;
 }
 
 .navbar ul {
-	display: flex;
-	
-	list-style: none;
+  display: flex;
+  list-style: none;
 }
 
 .navbar li {
-	margin: 1rem;
-	text-align: none;
+  margin: 1rem;
+  text-decoration: none;
 }
-
