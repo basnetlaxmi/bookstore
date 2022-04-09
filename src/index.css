@@ -17,3 +17,8 @@
   margin: 1rem;
   text-decoration: none;
 }
+
+.single-book,.book-buttons {
+  display: flex;
+  justify-content: space-between;
+}
