@@ -1,7 +1,19 @@
-import React from 'react';
+// Actions
+const CHECKSTATUS = 'bookstore/categories/checkStatus';
 
-const Categories = () => (
-  <h1>Under construction</h1>
-);
+// Reducer
+export default function categoriesReducer(state = [], action = {}) {
+  switch (action.type) {
+    case CHECKSTATUS:
+      return 'Under construction';
+    default: return state;
+  }
+}
 
-export default Categories;
+// Action Creators
+export function checkStatus(id) {
+  return {
+    type: CHECKSTATUS,
+    payload: { id },
+  };
+}
