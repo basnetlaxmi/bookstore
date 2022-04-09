@@ -5,15 +5,14 @@ const appsEndpoint = `${baseUrl}/apps/`;
 const booksEndpoint = `${appsEndpoint}${appId}/books`;
 const deleteBookEndpoint = (id) => `${booksEndpoint}/${id}`;
 
-const postData = async (url, data, isText = false) => {
+const postData = async (url, data) => {
   const res = await fetch(url, {
     method: 'POST',
     mode: 'cors',
     headers: { 'Content-type': 'application/json' },
     body: JSON.stringify(data),
   });
-  if (isText) return res.text();
-  return res.json();
+  return res.text();
 };
 
 const deleteData = async (id) => {
