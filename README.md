@@ -9,7 +9,7 @@
 
 ## Built With
 
-- HTML, CSS, js, React
+- HTML, CSS, js, React, Redux
 - Linters, Markdown
 - GitHub Flow, GitHub Action
 
@@ -18,7 +18,7 @@
 
 To get a local copy up and running follow these simple example steps.
 
-1) Enter `ggit@github.com:basnetlaxmi/bookstore.git` into terminal
+1) Enter `git@github.com:basnetlaxmi/bookstore.git` into terminal
 
 2) cd bookstore directory
 3) npm install 
@@ -39,7 +39,7 @@ To get a local copy up and running follow these simple example steps.
 👤 **Laxmi Basnet**
 
 - GitHub: [@basnetlaxmi](https://github.com/basnetlaxmi)
-- LinkedIn: [LinkedIn](https://np.linkedin.com/in/laxmi-basnet-b22403131)
+- LinkedIn: [LinkedIn](https://np.linkedin.com/in/basnet-laxmi)
 
 ## 🤝 Contributing
 
