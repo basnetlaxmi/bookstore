@@ -9,7 +9,7 @@
 
 ## Built With
 
-- HTML, CSS, js, React
+- HTML, CSS, js, React, Redux
 - Linters, Markdown
 - GitHub Flow, GitHub Action
 
